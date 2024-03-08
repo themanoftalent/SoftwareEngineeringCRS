@@ -1,0 +1,2 @@
+my repo: https://github.com/EmirPetek/GitHub-Homework
+my txt file in the repo as homework.txt
