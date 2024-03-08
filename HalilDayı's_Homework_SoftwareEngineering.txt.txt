@@ -1,0 +1,27 @@
+GIT COMMANDS
+* git add: move changes from the working directory to the staging area.
+* git branch: it lets you create isolated development enviroments within a single repository.
+* git checkout: check out old commits and old file versions.
+* git clean: removes untracked files from working directory.
+* git clone: creates copy of an existing GIT repository. 
+* git commit: to create a snapshot and commits it to the project history.
+* git config: a convenient way to configuration options for your GIT installation.
+* git fetch: downloads a branch from another repository. This gives a chance to inspect changes before merging them with your project.
+* git init: initialize a new git repository.
+* git log: lets you explore the previous versions of a project.
+* git merge: It is the process of integrating changes from another branch into your own branch on which you are working.
+* git push: to upload changes to a remote repository
+* git pull: fetch changes from a remote repository, then immediately merges it into the current branch.
+* git reset: undoes changes to the files in the working directory. Resetting lets you clean up or completely remove changes that haven't been pushed to a public repository.
+*git status: displays the state of the working directory and the staged snapshot.
+
+
+When you commit changes, you record all your local changes into the mini file system. the mini file system is 'append only'. Nothing is ever over-written there, so everything you ever commit can be recovered.
+
+At the end of each work session, you need to save your changes on the server. This is called a 'push'. Then all your data is backed up.
+To retrieve data from the server, you do a 'pull'. A pull takes the data from the server and puts it both in your local mini file system and in your ordinary files. If local file has changed, git will 'merge' the changes if possible.
+
+In GitHub, 'push' and 'pull' are combined into a single operation called 'sync'.
+If your new changes cause issue, you can always 'revert' to your last known good commit.
+
+! rollback: this command will reset everything, move the head back to the indicated commit version and remove all changes added to the code tree after that specific version number.
