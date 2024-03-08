@@ -1,3 +1,0 @@
-hello world
-
-git url:https://github.com/Zeynepselcen/Github-Homework.git
