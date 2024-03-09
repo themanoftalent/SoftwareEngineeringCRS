@@ -1,1 +1,2 @@
 Sample a text
+Additional text in feature branch
